@@ -1,1 +1,3 @@
-# Synchronous-FIFO
+The SystemVerilog testbench is developed to validate a synchronous FIFO (First-In, First-Out) module with an 8-bit data width and a 32-word memory depth. It simulates various clocked operations, including reset, write, and read actions, to ensure the FIFO operates correctly under different conditions. The testbench monitors FIFO pointers and status signals, such as full and empty indicators, to track the FIFO's state throughout the simulation.
+
+Key features of the testbench include clock generation and signal initialization, which are essential for synchronizing operations within the FIFO. The test sequence demonstrates fundamental write and read operations, ensuring that data is correctly enqueued and dequeued. This basic testbench provides a solid foundation for functional verification of the FIFO module and can be extended to include more complex scenarios and corner cases, enhancing the robustness of the testing process.
